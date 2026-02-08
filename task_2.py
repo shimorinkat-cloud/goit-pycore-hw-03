@@ -1,4 +1,6 @@
 import random
+
+
 def get_numbers_ticket(min_num: int, max_num: int, quantity: int) -> list:
     if min_num < 1 or max_num > 1000:
         return []
